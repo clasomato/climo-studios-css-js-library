@@ -1,3 +1,6 @@
+// Font Import
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
 // variables
 
 
@@ -9,6 +12,7 @@ html, * {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -19,10 +23,67 @@ img {
 $pColour1: #fff;
 
 
-// Font Import
+
+
+
+
+
+
 
 
 // Grid
+$mdWidth: 600px;
+$lgWidth: 900px;
+$columns: 12;
+$columnWidth: 100% / $columns;
+
+@mixin clear{
+    &::after{
+        clear: both;
+        display: block;
+        content: '';
+    }
+}
+
+.row{
+    margin-bottom: 15px;
+    @include clear;
+}
+
+
+.col{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@for $i from 1 through $columns{
+    .col#{$i}{
+        width:$columnWidth * $i;
+    }
+}
+
+@media (min-width: $mdWidth) {
+    @for $i from 1 through $columns{
+        .colM#{$i}{
+            width:$columnWidth * $i;
+        }
+    }
+}
+
+@media (min-width: $lgWidth) {
+    @for $i from 1 through $columns{
+        .colL#{$i}{
+            width:$columnWidth * $i;
+        }
+    }
+}
+
+
+
+
+
+
 
 
 // Standard Elements
