@@ -1,0 +1,78 @@
+html, * {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  width: 100%; }
+
+.standardButton {
+  color: white;
+  background-color: black;
+  border-radius: 0.5em;
+  padding: 1% 3%; }
+
+.container {
+  padding: 5% 10%; }
+
+.floatLeft {
+  float: left;
+  overflow: auto; }
+
+.floatRight {
+  float: right;
+  overflow: auto; }
+
+.w100 {
+  width: 100%; }
+
+.m0p0 {
+  margin: 0;
+  padding: 0; }
+
+.colourWhite {
+  color: white; }
+
+.colourBlack {
+  color: black; }
+
+.textCenter {
+  text-align: center; }
+
+.textLeft {
+  text-align: left; }
+
+.textRight {
+  text-align: right; }
+
+.overflowAuto {
+  overflow: auto; }
+
+.overflowHidden {
+  overflow: hidden; }
+
+.flex {
+  display: flex; }
+
+.flexCenterCenter {
+  justify-content: center;
+  align-items: center; }
+
+.flexHorizontalCenter {
+  justify-content: center; }
+
+.flexVerticalCenter {
+  align-items: center; }
+
+.flexEnd {
+  justify-content: flex-end; }
+
+.flexSpaceBetween {
+  justify-content: space-between; }
+
+.flexSpaceAround {
+  justify-content: space-around; }
+
+/*# sourceMappingURL=styles.css.map */
