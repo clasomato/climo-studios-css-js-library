@@ -237,3 +237,26 @@ $columnWidth: 100% / $columns;
 .flexSpaceAround {
   justify-content: space-around;
 }
+
+
+
+
+
+
+// JavaScript Stuff
+.standardModal {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+
+}
