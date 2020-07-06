@@ -34,6 +34,16 @@ label {
   font-size: 1.8em;
 }
 
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
 
 // Colour Palletes
 $pColour: #242424;
@@ -258,5 +268,9 @@ $columnWidth: 100% / $columns;
 }
 
 .modalContent {
+  min-width: 20%;
+  max-width: 80%;
 
+  min-height: 10%;
+  max-height: 80%;
 }

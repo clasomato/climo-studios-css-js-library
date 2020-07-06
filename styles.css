@@ -22,6 +22,14 @@ input {
 label {
   font-size: 1.8em; }
 
+a {
+  color: blue;
+  text-decoration: none; }
+
+a:hover {
+  color: lightblue;
+  text-decoration: underline; }
+
 .dropShadow {
   -webkit-box-shadow: 2px 15px 44px -12px rgba(0, 0, 0, 0.46);
   -moz-box-shadow: 2px 15px 44px -12px rgba(0, 0, 0, 0.46);
@@ -238,5 +246,11 @@ label {
   left: 0;
   justify-content: center;
   align-items: center; }
+
+.modalContent {
+  min-width: 20%;
+  max-width: 80%;
+  min-height: 10%;
+  max-height: 80%; }
 
 /*# sourceMappingURL=styles.css.map */
