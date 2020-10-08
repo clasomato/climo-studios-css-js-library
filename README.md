@@ -48,14 +48,35 @@ To use first you must have a parent div with the class 'row' and then inside tha
 'colL': Desktop / Large device size
 ```html
 <div class="container">
-	<div class="row">
-		<div class="col col12 colM6 colL4">
-			<h1>Example Column 1</h1>
-		</div>
-
-		<div class="col col12 colM6 colL4">
-			<h1>Example Column 2</h1>
-		</div>
+  <div class="row">
+	<div class="col col12 colM6 colL4">
+	  <h1>Example Column 1</h1>
 	</div>
+
+	<div class="col col12 colM6 colL4">
+	  <h1>Example Column 2</h1>
+	</div>
+  </div>
 </div>
 ```
+
+## Misc Classes
+### Styling
+ - `.dropShadow`
+
+### Standard Elements
+ - `.standardButton`
+
+### Raw CSS layout Stuff
+ - .container
+ - `.floatLeft`
+ - `.floatRight`
+ - `.w100`, adds width 100%
+
+
+## Text
+
+ - `.m0p0`  Adds margin 0px & padding 0px
+ - `.colourWhite`', Sets text color to white
+ - `.colourBlack`, Sets text color to black
+ - `.textCenter`, Aligns text to center
